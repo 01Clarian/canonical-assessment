@@ -68,7 +68,7 @@ const Hero = () => {
           <div className="col-xxl-6 col-xl-6 col-lg-6">
             <div className="canonical-assessment-hero-content-4">
               <span className="canonical-assessment-hero-subtitle-4">
-                Maurice Knecht Profile
+                ANONYMOUS Profile
               </span>
               <h3 className="canonical-assessment-hero-title-4">
                 Canonical <br />

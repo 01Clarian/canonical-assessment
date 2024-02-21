@@ -33,10 +33,10 @@ const Footer = () => {
                 <div className="canonical-assessment-footer-widget-contact-4 mb-25">
                   <Link href="#">
                     <PhoneIcon />
-                    +(914) 374 2564
+                    +(111) 111 1111
                   </Link>
                   <Link href="#">
-                    <FooterEmailIcon /> clarionnorth@gmail.com
+                    <FooterEmailIcon /> anonymous@anonymous.com
                   </Link>
                 </div>
                 <FooterSocialIcon />
@@ -64,7 +64,7 @@ const Footer = () => {
             
             <div className="col-xxl-3 col-xl-3 col-lg-6 col-md-6">
               <div className="canonical-assessment-footer-widget-4 canonical-assessment-footer-widget-4-2 mb-40">
-                <h5 className="canonical-assessment-footer-widget-title-4">Maurice Knecht Newsletter</h5>
+                <h5 className="canonical-assessment-footer-widget-title-4">ANONYMOUS Newsletter</h5>
                 <div className="canonical-assessment-newspaper-form-4 mt-35">
                   <form action="#" className="mb-15">
                     <input

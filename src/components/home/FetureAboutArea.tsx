@@ -88,7 +88,7 @@ const FetureeducationArea = () => {
                 <div className="canonical-assessment-section-subtitle-4">
                   <p>Driven by a passion for innovation, I&apos;m constantly seeking new ways to enhance my React skills and push the boundaries of what&apos;s possible.</p>
                   <section className="skill-focus">
-                    <p>My Next Skill: Mastering the &quot;ooks API&quot; Evolution</p>
+                    <p>My Next Skill: Mastering the &quot;Hooks API&quot; Evolution</p>
                     <ul>
                       <li>Deeper understanding of custom hooks for modularity, reusability, and complex state management.</li>
                       <li>Mastering advanced hook composition for building intricate UI behaviors.</li>
@@ -106,7 +106,7 @@ const FetureeducationArea = () => {
                 </div>
               </div>
               <Link
-                href="https://www.udemy.com/user/clariannorth/"
+                href="/error"
                 className="canonical-assessment-featured-bordered-btn-4"
               >
                 <span>View My Courses</span>

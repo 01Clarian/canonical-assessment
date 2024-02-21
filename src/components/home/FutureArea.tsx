@@ -24,7 +24,7 @@ const FutureArea = () => {
           <div className="row">
             <div className="col-xxl-12">
               <div className="canonical-assessment-section-title-wrap-4 mb-70 text-center">
-                <span className="canonical-assessment-section-badge-4 mb-15">Maurice&apos;s Strengths</span>
+                <span className="canonical-assessment-section-badge-4 mb-15">ANONYMOUS&apos;s Strengths</span>
                 <h4 className="canonical-assessment-section-title-4">
                   If you can think it, I
                   <br /> Can build it.

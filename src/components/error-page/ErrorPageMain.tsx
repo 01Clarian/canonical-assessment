@@ -21,8 +21,7 @@ const ErrorPageMain = () => {
                 <div className="section-title">
                   <h2 className="mb-20">Oops! That page can not be found.</h2>
                   <p>
-                    We {`couldn't`} find any results for your search. Use more
-                    generic words or double check your spelling.
+                    I shall remain anonymous for this assessment as requested. 
                   </p>
                 </div>
                 <div className="error-btn">

@@ -49,15 +49,13 @@ const HeaderOne = () => {
               <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-6">
                 <div className="canonical-assessment-header-action-btn">
                   <Link 
-                    target="_blank"
-                    href="https://github.com/01Clarian"
+                    href="/error"
                     className="canonical-assessment-transparent-btn d-none d-sm-inline-block"
                   >
                     <i className="fal fa-user"></i>Github
                   </Link>
                   <Link
-                    target="_blank"
-                    href="https://www.udemy.com/user/clariannorth"
+                    href="/error"
                     className="canonical-assessment-theme-btn ml-25 d-none d-sm-inline-block"
                   >
                     <span>Website</span>

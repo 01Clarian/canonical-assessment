@@ -47,13 +47,13 @@ const MobileMenu = () => {
         </div>
         <div className="responsive-sidebar-actions">
           <Link
-            href="https://github.com/01Clarian"
+            href="/error"
             className="canonical-assessment-border-btn d-block canonical-assessment-broder-btn-space-3 ms-0 text-center mb-2"
           >
             Github
           </Link>
           <Link
-            href="https://www.udemy.com/user/clariannorth/"
+            href="/error"
             className="canonical-assessment-theme-btn text-center d-inline-block d-sm-none w-100"
           >
             <span>Website</span>

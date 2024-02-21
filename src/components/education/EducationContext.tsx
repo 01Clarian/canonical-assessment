@@ -111,7 +111,7 @@ const educationContext = () => {
                 className="context-right-link-2 wow fadeInUp"
                 data-wow-delay=".8s"
               >
-                <Link href="https://www.udemy.com/user/clariannorth" className="canonical-assessment-theme-btn">
+                <Link href="/error" className="canonical-assessment-theme-btn">
                   <span>Learn More</span>
                 </Link>
               </div>

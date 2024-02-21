@@ -10,7 +10,6 @@ import { usePathname } from "next/navigation";
 import HeaderOne from "./header/HeaderOne";
 import Footer from "./footer/Footer";
 import useLoading from "@/hooks/useLoading";
-import Preloader from "@/components/common/Preloader";
 
 interface WrapperProps {
   children: React.ReactNode;

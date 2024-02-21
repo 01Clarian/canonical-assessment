@@ -20,19 +20,19 @@ const CtaMainArea = () => {
                     <li>Music Streaming Platform: Led development of a platform used by millions - ability to scale and handle complex projects.</li>
                     <li>Designed and built the initial UI/UX for a music streaming platform, front-end development skills.</li>
                     <li>Ferrari Driving School: Successfully completed a contract project involving UI/UX design and mobile responsiveness.</li>
-                    <li>Listed Productions CMS: Developed and launched a full-stack CMS system, highlighting your full-stack capabilities.</li>
+                    <li>Listed Productions CMS: Developed and launched a full-stack CMS system, highlighting my full-stack capabilities.</li>
                   </ul>
                   <br />
                   <h6 style={{ color: "yellow" }}>Educational Content</h6>
                   <ul>
-                    <li>Udemy Programming Courses: Created and instructed popular courses on React, Redux, Solidity, and more, demonstrating your deep understanding of these technologies.</li>
+                    <li>Udemy Programming Courses: Created and instructed popular and highest rated courses on React, Redux, Solidity, and more, demonstrating my deep understanding of these technologies.</li>
                     <li>NEAR Protocol Web3 Course: Developed and launched a course on Web3 development, contributing to the growth of the NEAR ecosystem.</li>
                   </ul>
                   <br />
                   <h6 style={{ color: "yellow" }}>Other Projects</h6>
                   <ul>
-                    <li>Deep Learning Chunking Algorithm: Developed an algorithm for natural language processing, showcasing your expertise in AI and machine learning.</li>
-                    <li>Kubernetes and GKE Management: Deployed and managed applications using Kubernetes, demonstrating your DevOps skills.</li>
+                    <li>Deep Learning Chunking Algorithm: Developed an algorithm for natural language processing, showcasing my expertise in AI and machine learning.</li>
+                    <li>Kubernetes and GKE Management: Deployed and managed applications using Kubernetes, demonstrating my DevOps skills.</li>
                   </ul>
                   <br />
                   <h6 style={{ color: "yellow" }}>Operating Systems, Development Environments, Languages, Databases, and Frameworks:</h6>
@@ -46,9 +46,9 @@ const CtaMainArea = () => {
                   </p>
                   <p>
                     <strong>Additionally, I would emphasize:</strong><br />
-                    - A strong foundational understanding of algorithms and object-oriented programming gained through your early career and personal projects.<br />
-                    - A passion for learning and staying ahead of the curve, as evidenced by your extensive course creation and participation in the tech community.<br />
-                    - An ability to collaborate effectively with various teams, as demonstrated by your project leadership experience.
+                    - A strong foundational understanding of algorithms and object-oriented programming gained through my early career and personal projects.<br />
+                    - A passion for learning and staying ahead of the curve, as evidenced by my extensive course creation and participation in the tech community.<br />
+                    - An ability to collaborate effectively with various teams, as demonstrated by my project leadership experience.
                   </p>
                 </div>
               </span>

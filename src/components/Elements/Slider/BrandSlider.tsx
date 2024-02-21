@@ -15,7 +15,7 @@ const BrandSlider = () => {
           <div className="col-xxl-12">
             <div className="canonical-assessment-sm-section-title-wrap">
               <h5 className="canonical-assessment-sm-section-title">
-                Maurice has worked with world class brands
+                ANONYMOUS has worked with world class brands
               </h5>
               <div className="row">
                 <div className="col-xxl-8 col-xl-12 col-lg-12">
