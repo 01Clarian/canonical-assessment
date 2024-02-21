@@ -83,7 +83,7 @@ const educationContext = () => {
                 <p
                   className="s-desc wow fadeInUp line-height-24"
                   data-wow-delay=".4s"
-                  style={{fontWeight:'bold'}}
+                  style={{fontWeight:"bold"}}
                 >
                   Please scroll down to read each individual assessment question answered in listed numerical order.
                 </p>
