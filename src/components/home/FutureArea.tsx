@@ -198,7 +198,7 @@ const FutureArea = () => {
                       <strong>Boosting Efficiency with Content Management:</strong> My work at Listed Productions involved building a full-stack CMS system for a thriving Booking Agency. This streamlined content management processes, making website updates smoother and content creation more efficient.
                     </p>
                     <p>
-                      <strong>Creative Collaboration on "No Fantasy Required":</strong> As Lead Engineer at Universal Publishing with Tiga, I led a team and defined the technical infrastructure for his acclaimed LP. This involved innovative audio engineering solutions and digital media technologies, all while remaining within budget and on schedule.
+                      <strong>Creative Collaboration on &quot;No Fantasy Required&quot;:</strong> As Lead Engineer at Universal Publishing with Tiga, I led a team and defined the technical infrastructure for his acclaimed LP. This involved innovative audio engineering solutions and digital media technologies, all while remaining within budget and on schedule.
                     </p>
                     <p>
                       <strong>Beyond the Technical:</strong> While I understand the technical complexities of large systems, I also recognize the importance of other aspects like:

@@ -61,7 +61,7 @@ const CtaMainArea = () => {
                     As an individual deeply invested in the tech community and passionate about empowering others, open-source software development holds a special place in my heart. It embodies the collaborative spirit of innovation, fostering a culture where knowledge and progress are freely shared.
                   </p>
                   <p>
-                    While I haven not had the formal title of "open-source maintainer," I have actively contributed to the open-source ecosystem in various ways, including:
+                    While I haven not had the formal title of &quot;open-source maintainer,&quot; I have actively contributed to the open-source ecosystem in various ways, including:
                   </p>
                   <ul>
                   <h6 style={{ color: "yellow" }}>Collaborating on Storybook and Chromatic</h6>
@@ -250,7 +250,7 @@ const CtaMainArea = () => {
                 <div>
                   <h6 style={{ color: "yellow" }}>Foundational Pillars</h6>
                   <p>
-                    Clear Vision and Goal Alignment: A great engineering manager sets a clear technical vision for the team, aligned with broader product and company goals. They effectively communicate this vision, ensuring everyone understands the "why" behind their work and how it contributes to the bigger picture.
+                    Clear Vision and Goal Alignment: A great engineering manager sets a clear technical vision for the team, aligned with broader product and company goals. They effectively communicate this vision, ensuring everyone understands the &quot;why&quot; behind their work and how it contributes to the bigger picture.
                   </p>
                   <p>
                     Empowerment and Ownership: Fostering a culture of ownership is crucial. Managers should delegate tasks strategically, provide the necessary resources and support, and empower team members to make decisions and take initiative. This builds trust, accountability, and a sense of personal investment in the team&apos;s success.
