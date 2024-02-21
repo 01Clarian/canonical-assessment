@@ -61,7 +61,7 @@ const CtaMainArea = () => {
                     As an individual deeply invested in the tech community and passionate about empowering others, open-source software development holds a special place in my heart. It embodies the collaborative spirit of innovation, fostering a culture where knowledge and progress are freely shared.
                   </p>
                   <p>
-                    While I haven't had the formal title of "open-source maintainer," I've actively contributed to the open-source ecosystem in various ways, including:
+                    While I haven not had the formal title of "open-source maintainer," I have actively contributed to the open-source ecosystem in various ways, including:
                   </p>
                   <ul>
                   <h6 style={{ color: "yellow" }}>Collaborating on Storybook and Chromatic</h6>
@@ -81,7 +81,7 @@ const CtaMainArea = () => {
                     <li>
                       <br />
                       <h6 style={{ color: "yellow" }}>Supporting NEAR Protocol</h6>
-                      I'm particularly passionate about the potential of blockchain technology, and I actively participate in the NEAR Protocol ecosystem. Notably, I created and ran a node for NEAR Protocol validators. This node consistently ranked among the top hundred for uptime and reliability, directly contributing to the security and stability of the NEAR network.
+                      I&apos;m particularly passionate about the potential of blockchain technology, and I actively participate in the NEAR Protocol ecosystem. Notably, I created and ran a node for NEAR Protocol validators. This node consistently ranked among the top hundred for uptime and reliability, directly contributing to the security and stability of the NEAR network.
                     </li>
                   </ul>
                   <p>
@@ -89,7 +89,7 @@ const CtaMainArea = () => {
                   </p>
                   <ul>
                     <h6 style={{ color: "yellow" }}>Accelerate innovation</h6>
-                    <li>By fostering collaboration and open access to code, open-source projects can rapidly iterate and improve, pushing the boundaries of what's possible.</li>
+                    <li>By fostering collaboration and open access to code, open-source projects can rapidly iterate and improve, pushing the boundaries of what&apos;s possible.</li>
                     <br />
                     <h6 style={{ color: "yellow" }}>Democratize knowledge</h6>
                     <li>Open-source makes powerful tools and technologies accessible to everyone, regardless of background or resources, fostering a more inclusive and equitable tech landscape.</li>
@@ -153,7 +153,7 @@ const CtaMainArea = () => {
                   <h6 style={{ color: "yellow" }}>Millions of Impressions</h6>
                   <ul>
                     <li>
-                      The platform's architecture and performance facilitated handling millions of user interactions and content streams efficiently.
+                      The platform&apos;s architecture and performance facilitated handling millions of user interactions and content streams efficiently.
                     </li>
                     <br />
                     <h6 style={{ color: "yellow" }}>Thousands of Uploads</h6>
@@ -163,7 +163,7 @@ const CtaMainArea = () => {
                     <br />
                     <h6 style={{ color: "yellow" }}>Exclusives from Grammy-Acclaimed Artists</h6>
                     <li>
-                      The platform's technical capabilities, security, and innovative solutions like the IPFS gateway enabled attracting and managing exclusive content from high-profile artists and labels.
+                      The platform&apos;s technical capabilities, security, and innovative solutions like the IPFS gateway enabled attracting and managing exclusive content from high-profile artists and labels.
                     </li>
                     <br />
                     <h6 style={{ color: "yellow" }}>Reduced Lag and Enhanced User Experience</h6>
@@ -236,7 +236,7 @@ const CtaMainArea = () => {
                       Worked closely with the product manager to translate product vision into actionable technical tasks and user stories.
                     </li>
                     <li>
-                      Actively participated in cross-functional team meetings, providing technical expertise and advocating for the frontend team's needs.
+                      Actively participated in cross-functional team meetings, providing technical expertise and advocating for the frontend team&apos;s needs.
                     </li>
                   </ul>
                   <p>
@@ -253,10 +253,10 @@ const CtaMainArea = () => {
                     Clear Vision and Goal Alignment: A great engineering manager sets a clear technical vision for the team, aligned with broader product and company goals. They effectively communicate this vision, ensuring everyone understands the "why" behind their work and how it contributes to the bigger picture.
                   </p>
                   <p>
-                    Empowerment and Ownership: Fostering a culture of ownership is crucial. Managers should delegate tasks strategically, provide the necessary resources and support, and empower team members to make decisions and take initiative. This builds trust, accountability, and a sense of personal investment in the team's success.
+                    Empowerment and Ownership: Fostering a culture of ownership is crucial. Managers should delegate tasks strategically, provide the necessary resources and support, and empower team members to make decisions and take initiative. This builds trust, accountability, and a sense of personal investment in the team&apos;s success.
                   </p>
                   <p>
-                    Continuous Learning and Development: A manager's role is not just to assign tasks but to help each team member grow. This involves providing opportunities for skill development, encouraging participation in conferences and workshops, and facilitating knowledge sharing within the team.
+                    Continuous Learning and Development: A manager&apos;s role is not just to assign tasks but to help each team member grow. This involves providing opportunities for skill development, encouraging participation in conferences and workshops, and facilitating knowledge sharing within the team.
                   </p>
                   <p>
                     Effective Communication and Collaboration: Open and transparent communication is vital. Regular team meetings, one-on-ones, and a culture of open feedback create a safe space for collaboration, issue resolution, and collective problem-solving.
@@ -270,8 +270,8 @@ const CtaMainArea = () => {
                     <li>Building Psychological Safety: Fostering a psychologically safe environment where team members feel comfortable taking risks, sharing ideas, and admitting mistakes is crucial for innovation and learning.</li>
                     <li>Data-Driven Decision Making: Leveraging data and metrics to track progress, identify areas for improvement, and evaluate the impact of technical decisions empowers data-driven decision making and optimizes team performance.</li>
                     <li>Proactive Conflict Resolution: Addressing conflicts constructively and promptly prevents them from festering and impacting team dynamics. Managers should facilitate open communication, listen actively, and guide the team towards mutually beneficial solutions.</li>
-                    <li>Leading by Example: A manager's own work ethic, communication style, and commitment to personal growth set the tone for the team. Leading by example inspires trust, motivates others, and encourages them to embrace similar values.</li>
-                    <li>Building Relationships and Advocacy: Creating strong relationships with other teams, departments, and stakeholders helps overcome roadblocks, secure resources, and advocate for the team's needs effectively.</li>
+                    <li>Leading by Example: A manager&apos;s own work ethic, communication style, and commitment to personal growth set the tone for the team. Leading by example inspires trust, motivates others, and encourages them to embrace similar values.</li>
+                    <li>Building Relationships and Advocacy: Creating strong relationships with other teams, departments, and stakeholders helps overcome roadblocks, secure resources, and advocate for the team&apos;s needs effectively.</li>
                   </ul>
                   <p>
                     This outline reflects my belief that a high-functioning engineering team thrives on clear direction, ownership, and a supportive environment that fosters learning, collaboration, and individual growth. An effective engineering manager plays a critical role in cultivating these elements, ultimately shaping a team that delivers impactful results while fostering a positive and rewarding work experience for everyone involved.
@@ -284,14 +284,14 @@ const CtaMainArea = () => {
                 <div>
                   <h6 style={{ color: "yellow" }}>Obsessed with Performance: My Approach to Building Fast Software</h6>
                   <p>
-                    Performance in software engineering is not just a technical hurdle, it's the lifeblood of a great user experience. In my mind, a fast product is one that not only loads quickly, but also feels responsive, intuitive, and delightful to use. Here's how I ensure my work delivers on that promise:
+                    Performance in software engineering is not just a technical hurdle, it&apos;s the lifeblood of a great user experience. In my mind, a fast product is one that not only loads quickly, but also feels responsive, intuitive, and delightful to use. Here&apos;s how I ensure my work delivers on that promise:
                   </p>
                   <div>
                     <h6 style={{ color: "yellow" }}>1. Performance-First Mindset:</h6>
                   </div>
                   <ul>
                     <li>
-                      Prioritization: Performance is woven into every step of the development process, from initial architecture decisions to code reviews and deployments. It's never an afterthought.
+                      Prioritization: Performance is woven into every step of the development process, from initial architecture decisions to code reviews and deployments. It&apos;s never an afterthought.
                     </li>
                     <li>
                       Data-Driven Decisions: We leverage tools like Lighthouse, WebPageTest, and internal metrics to identify bottlenecks and track improvements over time. Data drives our decisions, not guesswork.
@@ -306,7 +306,7 @@ const CtaMainArea = () => {
                       Modern Technologies: We embrace efficient frameworks like Next.js and tools like SSR (static rendering) and dethrottling/rate limiting to deliver lightning-fast initial page loads and optimal resource utilization.
                     </li>
                     <li>
-                      Minimizing Payload: We meticulously analyze and compress assets like images and code, ensuring they're delivered only when needed and in the smallest possible size.
+                      Minimizing Payload: We meticulously analyze and compress assets like images and code, ensuring they&apos;re delivered only when needed and in the smallest possible size.
                     </li>
                     <li>
                       Efficient Data Fetching: We carefully architect APIs and leverage caching strategies to minimize unnecessary data transfers and ensure smooth interactions.
@@ -357,15 +357,15 @@ const CtaMainArea = () => {
                 <div>
                   <h6 style={{ color: "yellow" }}>Quality: Beyond Bugs - Building Exceptional Software</h6>
                   <p>
-                    Software quality is far more than just the absence of defects. It's the heart and soul of creating delightful user experiences, reliable products, and maintainable codebases. My perspective on quality revolves around these core principles:
+                    Software quality is far more than just the absence of defects. It&apos;s the heart and soul of creating delightful user experiences, reliable products, and maintainable codebases. My perspective on quality revolves around these core principles:
                   </p>
                   <h6 style={{ color: "yellow" }}>1. Quality is a Collective Responsibility:</h6>
                   <ul>
                     <li>
-                      Shared Ownership: Quality isn't solely the responsibility of QA testers; it's a team effort. Everyone, from developers to designers and product managers, contributes to building quality experiences.
+                      Shared Ownership: Quality isn&apos;t solely the responsibility of QA testers; it&apos;s a team effort. Everyone, from developers to designers and product managers, contributes to building quality experiences.
                     </li>
                     <li>
-                      Clear Quality Standards: Defined standards, whether it's coding style guides, unit testing coverage targets, or accessibility benchmarks, create a shared understanding of expectations and foster consistency.
+                      Clear Quality Standards: Defined standards, whether it&apos;s coding style guides, unit testing coverage targets, or accessibility benchmarks, create a shared understanding of expectations and foster consistency.
                     </li>
                     <li>
                       Open Communication and Feedback: Encouraging open communication about potential issues, fostering healthy debate, and welcoming constructive feedback are crucial for identifying and addressing quality concerns early on.

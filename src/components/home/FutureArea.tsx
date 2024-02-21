@@ -24,7 +24,7 @@ const FutureArea = () => {
           <div className="row">
             <div className="col-xxl-12">
               <div className="canonical-assessment-section-title-wrap-4 mb-70 text-center">
-                <span className="canonical-assessment-section-badge-4 mb-15">Maurice's Strengths</span>
+                <span className="canonical-assessment-section-badge-4 mb-15">Maurice&apos;s Strengths</span>
                 <h4 className="canonical-assessment-section-title-4">
                   If you can think it, I
                   <br /> Can build it.
@@ -54,7 +54,7 @@ const FutureArea = () => {
                       <ul>
                         <li>React itself is likely to solidify its position due to its component-based architecture, flexibility, and strong community.</li>
                         <li>Next.js: Its server-side rendering, static site generation, and data fetching capabilities make it ideal for performance-critical applications and SEO.</li>
-                        <li>Remix: While still young, Remix's focus on server-side rendering, routing, and data fetching could make it a strong contender, especially for large-scale or data-intensive projects.</li>
+                        <li>Remix: While still young, Remix&apos;s focus on server-side rendering, routing, and data fetching could make it a strong contender, especially for large-scale or data-intensive projects.</li>
                       </ul>
                       <br />
                       <h6>2. TypeScript:</h6>
@@ -133,22 +133,22 @@ const FutureArea = () => {
                   <div>
                     <h2>My Web Programming Experience</h2>
                     <p>
-                      Let's dive into my web programming experience! When it comes to JavaScript and TypeScript, I consider myself a front-end maestro. Building beautiful, responsive, and performant UIs is my jam. Whether it's the music streaming platform I led, or the educational tools I crafted, I thrive on creating engaging user experiences. My expertise in React and Next.js is rock-solid, and I'm a whiz at integrating third-party APIs to make things tick seamlessly.
+                      Let&apos;s dive into my web programming experience! When it comes to JavaScript and TypeScript, I consider myself a front-end maestro. Building beautiful, responsive, and performant UIs is my jam. Whether it&apos;s the music streaming platform I led, or the educational tools I crafted, I thrive on creating engaging user experiences. My expertise in React and Next.js is rock-solid, and I&apos;m a whiz at integrating third-party APIs to make things tick seamlessly.
                     </p>
                     <p>
-                      But I'm not just a front-end one-trick pony. I've delved into full-stack territory with Node.js and Express. From crafting secure CRUD APIs to implementing deep learning algorithms, I enjoy getting my hands dirty on the back-end too. This flexibility makes me a valuable asset, able to adapt to diverse project needs.
+                      But I&apos;m not just a front-end one-trick pony. I&apos;ve delved into full-stack territory with Node.js and Express. From crafting secure CRUD APIs to implementing deep learning algorithms, I enjoy getting my hands dirty on the back-end too. This flexibility makes me a valuable asset, able to adapt to diverse project needs.
                     </p>
                     <p>
-                      Now, let's talk about React and CSS. Designing and building initial UI/UX prototypes is something I truly relish. It's where my strategic thinking and creativity come together to translate ideas into user-friendly interfaces. From artist profiles to payment flows, I've tackled various challenges with a focus on both functionality and aesthetics.
+                      Now, let&apos;s talk about React and CSS. Designing and building initial UI/UX prototypes is something I truly relish. It&apos;s where my strategic thinking and creativity come together to translate ideas into user-friendly interfaces. From artist profiles to payment flows, I&apos;ve tackled various challenges with a focus on both functionality and aesthetics.
                     </p>
                     <p>
-                      While JavaScript technologies are my sweet spot, I've also dabbled in Python. Whether it was for data analysis, scripting, or even back-end development, this exposure shows my willingness to learn and adapt new languages. It's all about expanding my skillset and becoming a more well-rounded developer.
+                      While JavaScript technologies are my sweet spot, I&apos;ve also dabbled in Python. Whether it was for data analysis, scripting, or even back-end development, this exposure shows my willingness to learn and adapt new languages. It&apos;s all about expanding my skillset and becoming a more well-rounded developer.
                     </p>
                     <p>
-                      In a nutshell, I'm a passionate and results-oriented developer who thrives in dynamic environments. I'm comfortable taking ownership, leading projects, and constantly seeking new challenges and technologies to conquer. My impressive track record and dedication to growth make me confident I can be a valuable asset to your team.
+                      In a nutshell, I&apos;m a passionate and results-oriented developer who thrives in dynamic environments. I&apos;m comfortable taking ownership, leading projects, and constantly seeking new challenges and technologies to conquer. My impressive track record and dedication to growth make me confident I can be a valuable asset to your team.
                     </p>
                     <p>
-                      So, how can my skills and experience contribute to your specific needs? Let's explore that further!
+                      So, how can my skills and experience contribute to your specific needs? Let&apos;s explore that further!
                     </p>
                   </div>
                 </div>
@@ -184,7 +184,7 @@ const FutureArea = () => {
                   <div>
                     <h2>Professional Experience</h2>
                     <p>
-                      <strong>Leading Tamastream's Development:</strong> As the front-end lead at Tamastream, I played a pivotal role in building the platform from the ground up. We hit 43 million impressions worldwide, and I'm proud of my contributions to:
+                      <strong>Leading Tamastream&apos;s Development:</strong> As the front-end lead at Tamastream, I played a pivotal role in building the platform from the ground up. We hit 43 million impressions worldwide, and I&apos;m proud of my contributions to:
                     </p>
                     <ul>
                       <li>Designing the initial UI/UX prototype: This included the core music streaming player, which laid the foundation for a user-friendly experience.</li>
@@ -192,7 +192,7 @@ const FutureArea = () => {
                       <li>Leading the development of key features: I spearheaded the creation of artist profiles, search algorithms, and payment processing UIs, enhancing user functionality and engagement.</li>
                     </ul>
                     <p>
-                      <strong>Empowering Developers with Web3:</strong> I developed the official Web3 NEAR Education course on Udemy, currently boasting over 7,000 enrollments. I'm passionate about helping others get up to speed with these cutting-edge technologies.
+                      <strong>Empowering Developers with Web3:</strong> I developed the official Web3 NEAR Education course on Udemy, currently boasting over 7,000 enrollments. I&apos;m passionate about helping others get up to speed with these cutting-edge technologies.
                     </p>
                     <p>
                       <strong>Boosting Efficiency with Content Management:</strong> My work at Listed Productions involved building a full-stack CMS system for a thriving Booking Agency. This streamlined content management processes, making website updates smoother and content creation more efficient.
@@ -209,7 +209,7 @@ const FutureArea = () => {
                       <li>Reliability: Deploying systems with high uptime and availability is crucial. I have experience with GKE and other tools to achieve this.</li>
                     </ul>
                     <p>
-                      I'm confident that my blend of technical expertise, teamwork, and leadership skills makes me a valuable asset for building and maintaining large systems. I'm always eager to learn and adapt to new challenges, and I'm passionate about creating systems that are both powerful and user-friendly.
+                      I&apos;m confident that my blend of technical expertise, teamwork, and leadership skills makes me a valuable asset for building and maintaining large systems. I&apos;m always eager to learn and adapt to new challenges, and I&apos;m passionate about creating systems that are both powerful and user-friendly.
                     </p>
                   </div>
                 </div>
@@ -262,13 +262,13 @@ const FutureArea = () => {
                   <div className="intro">
                     <h6>Stepping into the Flutterverse: My Perspective</h6>
                     <p>
-                      As a mobile developer currently utilizing React Native and Expo, I've
-                      developed a strong interest in Flutter's capabilities. Having explored
-                      some online examples, I'm impressed by its hot reload functionality and
+                      As a mobile developer currently utilizing React Native and Expo, I&apos;ve
+                      developed a strong interest in Flutter&apos;s capabilities. Having explored
+                      some online examples, I&apos;m impressed by its hot reload functionality and
                       expressive UI approach.
                     </p>
                     <p>
-                      While my experience with Flutter isn't extensive, my background in
+                      While my experience with Flutter isn&apos;t extensive, my background in
                       cross-platform development through React Native and Expo provides a
                       valuable foundation. Both frameworks share similarities in hot reload,
                       declarative UI, and the ability to build cross-platform apps, easing my
@@ -297,10 +297,10 @@ const FutureArea = () => {
                       <li>
                         <strong>Native performance:</strong> Compiling code directly into native
                         ARM code, Flutter often showcases performance benefits compared to
-                        React Native's JavaScript bridge approach.
+                        React Native&apos;s JavaScript bridge approach.
                       </li>
                       <li>
-                        <strong>Customizable UI:</strong> Flutter's extensive widget library and
+                        <strong>Customizable UI:</strong> Flutter&apos;s extensive widget library and
                         custom widget capabilities provide greater control over UI design,
                         enabling the creation of unique and visually appealing apps.
                       </li>

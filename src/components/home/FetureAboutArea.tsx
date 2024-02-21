@@ -86,7 +86,7 @@ const FetureeducationArea = () => {
                   What new skill would be next on your list to acquire? Why do you think that will be helpful or important to you? Why do you think you will handle it well?
                 </p>
                 <div className="canonical-assessment-section-subtitle-4">
-                  <p>Driven by a passion for innovation, I'm constantly seeking new ways to enhance my React skills and push the boundaries of what's possible.</p>
+                  <p>Driven by a passion for innovation, I&apos;m constantly seeking new ways to enhance my React skills and push the boundaries of what&apos;s possible.</p>
                   <section className="skill-focus">
                     <p>My Next Skill: Mastering the "React Hooks API" Evolution</p>
                     <ul>
@@ -96,7 +96,7 @@ const FetureeducationArea = () => {
                     </ul>
                   </section>
                   <section className="confidence">
-                    <h2>Why I'm Confident</h2>
+                    <h2>Why I&apos;m Confident</h2>
                     <ul>
                       <li>Solid foundation in core hooks.</li>
                       <li>Proactive learning mindset.</li>
