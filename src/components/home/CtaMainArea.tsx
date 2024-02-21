@@ -1,6 +1,5 @@
 import React from "react";
 import FooterBg from "../../../public/assets/img/bg/footer-bg.jpg";
-import Link from "next/link";
 
 const CtaMainArea = () => {
   return (
