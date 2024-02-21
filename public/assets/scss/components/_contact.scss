@@ -1,0 +1,92 @@
+/*
+--------------------------------------------
+32.contact
+*/
+@use '../abstracts/mixins' as *;
+
+.contact-info {
+    &-title {
+        font-size: 30px;
+        font-weight: 700;
+        color: #0a1426;
+        margin-bottom: 11px;
+
+        @include mq(xs) {
+            font-size: 26px;
+        }
+    }
+
+    &-subtitle {
+        font-size: 16px;
+        color: #535559;
+        display: block;
+    }
+}
+
+.single-contact-left {
+    &-item {
+        padding: 23px 30px;
+        border-radius: 4px;
+        box-shadow: 0px 30px 70px 0px #0005271a;
+        overflow: hidden;
+        background-color: #fff;
+
+        & .icon {
+            float: left;
+            margin-right: 13px;
+
+            & i {
+                color: var(--clr-theme-1);
+            }
+        }
+
+        & .content {
+            overflow: hidden;
+        }
+    }
+
+    &-label {
+        font-weight: 600;
+        color: #0a1426;
+        font-size: 15px;
+        margin-bottom: 0;
+        display: block;
+
+        &.contact-left-label-space {
+            margin-bottom: 7px;
+        }
+    }
+
+    &-info {
+        font-size: 15px;
+        display: block;
+        color: #535559;
+
+        & a {
+            text-decoration: none;
+        }
+    }
+}
+
+.share-social {
+    line-height: 1;
+
+    & a {
+        font-size: 15px;
+        margin-right: 10px;
+        display: inline-block;
+    }
+}
+
+.post-input-label-defualt {
+    display: block;
+    margin-bottom: 10px;
+    color: #0a1426;
+}
+
+.contact-map {
+    & iframe {
+        width: 100%;
+        height: 500px;
+    }
+}

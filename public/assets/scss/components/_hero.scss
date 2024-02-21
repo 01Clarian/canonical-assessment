@@ -1,0 +1,311 @@
+/*
+--------------------------------------------
+9.hero
+*/
+@use '../abstracts/mixins' as *;
+@use '../abstracts/variables' as *;
+
+.hero-shapes {
+    &>* {
+        z-index: -1;
+    }
+
+    & .shape1 {
+        bottom: -100px;
+        left: 100px
+    }
+
+    & .shape2 {
+        left: 262px;
+        bottom: -60px;
+    }
+
+    & .shape3 {
+        right: -155px;
+        bottom: 235px;
+        -webkit-animation: hero-circle-2 4s linear 0s infinite alternate;
+        -moz-animation: hero-circle-2 4s linear 0s infinite alternate;
+        -o-animation: hero-circle-2 4s linear 0s infinite alternate;
+        animation: hero-circle-2 4s linear 0s infinite alternate;
+
+        @include mq(xl) {
+            right: -37px;
+        }
+    }
+
+    & .shape4 {
+        right: 55px;
+        bottom: -62px;
+        animation-duration: 2.5s;
+        animation-fill-mode: both;
+        animation-iteration-count: infinite;
+        animation-name: hero-bounce;
+    }
+}
+
+.hero-inner {
+    z-index: 9;
+}
+
+.hero-space-1 {
+    @include mq(sm) {
+        padding-top: 156px;
+    }
+
+    @include mq(xs) {
+        padding-top: 135px;
+    }
+}
+
+.hero-shapes-2 {
+    @include mq(xs) {
+        display: none;
+    }
+
+    &>* {
+        position: absolute;
+    }
+
+    & .shape-1 {
+        top: 115px;
+        left: 100px;
+
+        @include mq(xl) {
+            top: 151px;
+        }
+
+        & img {
+            -webkit-animation: hero-thumb-animation 2s linear infinite alternate;
+            -moz-animation: hero-thumb-animation 2s linear infinite alternate;
+            -o-animation: hero-thumb-animation 2s linear infinite alternate;
+            animation: hero-thumb-animation 2s linear infinite alternate;
+        }
+    }
+
+    & .shape-2 {
+        top: 330px;
+        left: 150px;
+
+        & img {
+            -webkit-animation: contexts-triangle 7s linear infinite alternate;
+            -moz-animation: contexts-triangle 7s linear infinite alternate;
+            -o-animation: contexts-triangle 7s linear infinite alternate;
+            animation: contexts-triangle 7s linear infinite alternate;
+        }
+    }
+
+    & .shape-3 {
+        bottom: 200px;
+        left: 170px;
+
+        @include mq(xxl) {
+            bottom: 77px;
+            left: 132px;
+        }
+
+        @include mq(xl) {
+            bottom: 134px;
+            left: 115px;
+        }
+
+        @include mq(lg) {
+            display: none;
+        }
+
+        & img {
+            -webkit-animation: hero-triangle-1 6s linear infinite;
+            -moz-animation: hero-triangle-1 6s linear infinite;
+            -o-animation: hero-triangle-1 6s linear infinite;
+            animation: hero-triangle-1 6s linear infinite;
+        }
+    }
+}
+
+
+/*
+* hero style 4 ( home 4 )
+**/
+
+.canonical-assessment-hero {
+    &-height-4 {
+        min-height: 860px;
+    }
+
+    &-subtitle-4 {
+        font-family: $space;
+        font-weight: 700;
+        font-size: 13px;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--clr-common-white);
+        display: inline-block;
+        position: relative;
+        margin-bottom: 22px;
+
+        &::before {
+            background: linear-gradient(270deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 70.66%);
+            border-radius: 50px;
+            transform: matrix(-1, 0, 0, 1, 0, 0);
+            position: absolute;
+            left: -20px;
+            right: -20px;
+            top: -10px;
+            bottom: -10px;
+            content: "";
+        }
+    }
+
+    &-text-4 {
+        font-family: $roboto;
+        font-size: 20px;
+        line-height: 28px;
+        color: var(--clr-common-white);
+        padding-right: 46px;
+        margin-bottom: 40px;
+    }
+
+    &-title-4 {
+        font-family: $space;
+        font-weight: 700;
+        line-height: 1.1;
+        font-size: 70px;
+        letter-spacing: -0.04em;
+        color: var(--clr-common-white);
+        margin-bottom: 10px;
+
+        @include mq(xs) {
+            font-size: 42px;
+        }
+    }
+
+    &-content-right-img-4 {
+        margin-left: -144px;
+        transform: translateY(42px);
+
+        @include mq(xxl) {
+            margin-left: 0px;
+        }
+
+        @include mq(xl) {
+            margin-left: 0px;
+        }
+
+        @include mq(md) {
+            margin-left: 0px;
+        }
+
+        @include mq(xs) {
+            margin-left: 0px;
+        }
+
+        & img {
+            max-width: 850px;
+            -webkit-animation: hero-thumb-animation 2s linear infinite alternate;
+            -moz-animation: hero-thumb-animation 2s linear infinite alternate;
+            -o-animation: hero-thumb-animation 2s linear infinite alternate;
+            animation: hero-thumb-animation 2s linear infinite alternate;
+
+            @include mq(xxl) {
+                max-width: 650px;
+            }
+
+            @include mq(xl) {
+                max-width: 550px;
+            }
+
+            @include mq(lg) {
+                max-width: 600px;
+            }
+
+            @include mq(md) {
+                max-width: 700px;
+            }
+
+            @include mq(xs) {
+                max-width: 280px;
+            }
+        }
+    }
+
+    &-content-4 {
+        margin-top: -35px;
+
+        @include mq(md) {
+            margin-top: 200px;
+        }
+
+        @include mq(xs) {
+            margin-top: 150px;
+        }
+    }
+}
+
+.bg-top-left {
+    background-size: cover;
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+.hero-area {
+    &-shape-wrap-4 {
+        & .shape-1 {
+            position: absolute;
+            left: 158px;
+            top: 83px;
+
+            & img {
+                -webkit-animation: contexts-triangle 7s linear infinite alternate;
+                -moz-animation: contexts-triangle 7s linear infinite alternate;
+                -o-animation: contexts-triangle 7s linear infinite alternate;
+                animation: contexts-triangle 7s linear infinite alternate;
+            }
+        }
+
+        & .shape-2 {
+            position: absolute;
+            left: 65px;
+            bottom: 93px;
+
+            & img {
+                -webkit-animation: hero-triangle-2 4s linear infinite alternate;
+                -moz-animation: hero-triangle-2 4s linear infinite alternate;
+                -o-animation: hero-triangle-2 4s linear infinite alternate;
+                animation: hero-triangle-2 4s linear infinite alternate;
+            }
+        }
+
+        & .shape-3 {
+            right: 150px;
+            top: 293px;
+            position: absolute;
+        }
+    }
+}
+
+.hero-container {
+    &-shape-wrap-4 {
+        & .shape-4 {
+            position: absolute;
+            right: 39%;
+            top: 30%;
+        }
+
+        & .shape-3 {
+            left: 41.3%;
+            top: 120px;
+            position: absolute;
+
+            & img {
+                -webkit-animation: contexts-triangle 7s linear infinite alternate;
+                -moz-animation: contexts-triangle 7s linear infinite alternate;
+                -o-animation: contexts-triangle 7s linear infinite alternate;
+                animation: contexts-triangle 7s linear infinite alternate;
+            }
+        }
+    }
+}
+
+//update
+.canonical-assessment-hero-bg {
+    background-color: #eeeff4;
+}

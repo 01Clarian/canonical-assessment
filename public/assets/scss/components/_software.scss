@@ -1,0 +1,359 @@
+/*
+--------------------------------------------
+19.software
+*/
+@use '../abstracts/mixins' as *;
+
+.software-tab-control {
+    & .nav-item {
+        & button {
+            border: 0;
+            background: transparent;
+            font-size: 14px;
+            color: #535559;
+            font-weight: 500;
+            margin: 0;
+            padding: 0 calc(85px / 2);
+            position: relative;
+
+            &::before {
+                width: 60px;
+                height: 24px;
+                background-color: #fb4e7f;
+                content: "";
+                position: absolute;
+                left: -32px;
+                top: 50%;
+                transform: translateY(-50%);
+                border-radius: 30px;
+                pointer-events: none;
+                cursor: pointer;
+
+                @include mq(xs) {
+                    display: none;
+                }
+
+                @include mq(sm) {
+                    display: block;
+                    left: -28px;
+                }
+            }
+
+            &::after {
+                position: absolute;
+                left: -27px;
+                top: 50%;
+                transform: translateY(-50%);
+                width: 16px;
+                height: 16px;
+                background-color: var(--clr-common-white);
+                border-radius: 50%;
+                content: "";
+                @include transition(.3s);
+
+                @include mq(xs) {
+                    display: none;
+                }
+
+                @include mq(sm) {
+                    display: block;
+                    left: -23px;
+                }
+            }
+
+            &.active {
+                color: #fb4e7f;
+
+                &::after {
+                    left: 7px;
+
+                    @include mq(xs) {
+                        left: 12px;
+                    }
+                }
+            }
+        }
+
+        &:first-child {
+            button {
+                &::after {
+                    display: none;
+                }
+
+                &::before {
+                    display: none;
+                }
+            }
+        }
+    }
+
+
+    // &.style-2 {
+    //     & button.annual-tab-btn::before {
+    //         background-color: #fb4e7f;
+    //     }
+
+    //     & button.active {
+    //         color: #fb4e7f;
+    //     }
+    // }
+}
+
+.lets-chet {
+    font-size: 24px;
+    font-weight: 500;
+    color: #0a1426;
+    margin-bottom: 68px;
+}
+
+.software-shapes {
+    opacity: 0;
+    visibility: hidden;
+    @include transition(.3s);
+
+    &.show-shapes {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    &>* {
+        position: absolute;
+    }
+
+    &>.shape-1 {
+        left: 47px;
+        top: 165px;
+
+        & img {
+            -webkit-animation: contexts-triangle-2 4s linear infinite alternate;
+            -moz-animation: contexts-triangle-2 4s linear infinite alternate;
+            -o-animation: contexts-triangle-2 4s linear infinite alternate;
+            animation: contexts-triangle-2 4s linear infinite alternate;
+        }
+    }
+
+    &>.shape-2 {
+        right: 47px;
+        top: 180px;
+
+        & img {
+            -webkit-animation: contexts-triangle-2 4s linear infinite alternate;
+            -moz-animation: contexts-triangle-2 4s linear infinite alternate;
+            -o-animation: contexts-triangle-2 4s linear infinite alternate;
+            animation: contexts-triangle-2 4s linear infinite alternate;
+        }
+    }
+
+    &>.shape-3 {
+        left: 33px;
+        line-height: 1;
+        top: 160px;
+
+        & img {
+            -webkit-animation: contexts-circle-2 1.5s linear 0s infinite alternate;
+            -moz-animation: contexts-circle-2 1.5s linear 0s infinite alternate;
+            -o-animation: contexts-circle-2 1.5s linear 0s infinite alternate;
+            animation: contexts-circle-2 1.5s linear 0s infinite alternate;
+        }
+    }
+
+    &>.shape-4 {
+        left: 30px;
+        top: 185px;
+
+        & img {
+            -webkit-animation: hero-triangle-1 6s linear infinite;
+            -moz-animation: hero-triangle-1 6s linear infinite;
+            -o-animation: hero-triangle-1 6s linear infinite;
+            animation: hero-triangle-1 6s linear infinite;
+        }
+    }
+
+    &>.shape-5 {
+        right: 30px;
+        top: 159px;
+
+        & img {
+            -webkit-animation: hero-triangle-1 6s linear infinite;
+            -moz-animation: hero-triangle-1 6s linear infinite;
+            -o-animation: hero-triangle-1 6s linear infinite;
+            animation: hero-triangle-1 6s linear infinite;
+        }
+    }
+
+    &>.shape-6 {
+        top: 190px;
+        right: 34px;
+
+        & img {
+            -webkit-animation: contexts-circle-2 1.5s linear 0s infinite alternate;
+            -moz-animation: contexts-circle-2 1.5s linear 0s infinite alternate;
+            -o-animation: contexts-circle-2 1.5s linear 0s infinite alternate;
+            animation: contexts-circle-2 1.5s linear 0s infinite alternate;
+        }
+    }
+}
+
+.single-software {
+    &-title {
+        font-weight: 600;
+        font-size: 22px;
+        color: #0a1426;
+        margin-bottom: 9px;
+    }
+
+    &-info {
+        font-size: 14px;
+        line-height: 20px;
+        color: #535559;
+        margin-bottom: 33px;
+
+        &.space-last {
+            margin-bottom: 57px;
+        }
+    }
+
+    &-amount {
+        font-size: 54px;
+        color: #0a1426;
+        font-weight: 500;
+        margin-bottom: 0;
+    }
+
+    &-label {
+        font-size: 15px;
+        font-weight: 500;
+        color: #0a1426;
+        display: block;
+        margin-bottom: 35px;
+    }
+
+}
+
+.single-price {
+    position: relative;
+    border-radius: 4px;
+    box-shadow: 0px 30px 70px 0px #0005271a;
+    padding: 50px 35px;
+    position: relative;
+    min-height: 370px;
+    background-color: #fff;
+
+    @include mq(xl) {
+        padding: 50px 25px;
+    }
+
+    &:hover {
+        & .software-shapes {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+
+    &::after {
+        position: absolute;
+        left: 50%;
+        top: 0;
+        transform: translateX(-50%);
+        height: 5px;
+        width: 170px;
+        background-color: transparent;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        content: "";
+    }
+
+    &.item-1 {
+        &::after {
+            background-color: #ffaa3b;
+        }
+    }
+
+    &.item-2-1 {
+        &::after {
+            background-color: #ffaa3b;
+        }
+    }
+
+    &.item-2 {
+        &::after {
+            background-color: #33dbdb;
+        }
+    }
+
+    &.item-2-2 {
+        &::after {
+            background-color: #fb4e7f;
+        }
+    }
+
+    &.item-3 {
+        &::after {
+            background-color: #af85ff;
+        }
+    }
+
+    &.item-2-3 {
+        &::after {
+            background-color: #af85ff;
+        }
+    }
+
+    &.item-4 {
+        &::after {
+            background-color: #fb5050;
+        }
+    }
+
+    &.item-2-4 {
+        &::after {
+            background-color: #2f75ff;
+        }
+    }
+}
+
+.single-price-wrap {
+    position: relative;
+    z-index: 9;
+}
+
+.software-tab-extra-info {
+    &>* {
+        margin: 0 10px;
+    }
+
+    & .icon {
+        width: 35px;
+        height: 35px;
+        background: #eaebf2;
+        margin-top: 5px;
+        border-radius: 50%;
+        line-height: 33px;
+        vertical-align: top;
+    }
+
+    & .content {
+        & p {
+            font-size: 14px;
+            line-height: 22px;
+            color: #535559;
+            margin-bottom: 0;
+
+            & br {
+                @include mq(xs) {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+.software-space {
+    @include mq(xs) {
+        padding-bottom: 90px;
+    }
+}
+
+.space-last {
+    margin-bottom: 40px;
+}
