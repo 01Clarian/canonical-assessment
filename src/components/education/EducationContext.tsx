@@ -78,7 +78,7 @@ const educationContext = () => {
                   className="s-desc wow fadeInUp line-height-24"
                   data-wow-delay=".4s"
                 >
-                  During my high school and university years, my most exceptional achievement wasn't within the traditional academic system. I discovered a passion for audio engineering. So, I moonlighted non-stop at a highly reverred analog studio in Montreal, building patch bays and configuring modular synths from the 60s – without any instruction manuals! By 22, this self-taught hustle landed me gigs at top companies and launched me on a journey that's taken me around the world highlighted by Rolling Stone, Mixmag, Vice, NY Mag, Guardian, The BBC etc...
+                  During my high school and university years, my most exceptional achievement wasn not within the traditional academic system. I discovered a passion for audio engineering. So, I moonlighted non-stop at a highly reverred analog studio in Montreal, building patch bays and configuring modular synths from the 60s – without any instruction manuals! By 22, this self-taught hustle landed me gigs at top companies and launched me on a journey that has taken me around the world highlighted by Rolling Stone, Mixmag, Vice, NY Mag, Guardian, The BBC etc...
                 </p>
                 <p
                   className="s-desc wow fadeInUp line-height-24"
