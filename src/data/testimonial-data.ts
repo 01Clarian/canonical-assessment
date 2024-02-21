@@ -47,7 +47,7 @@ const testimonial_data: testimonialType[] = [
     authorName: "SCHOOL: OPTIONS II",
     desination: "MONTREAL QUEBEC, CANADA",
     description:
-      "I was focused and determined. I was a chess champion regionally and nationally and had the priviledge of playing Grandmaster Karpov multiple times in 1995. I was also already pre-enrolled at McGill recognized classes for Concerto Classical Classes in my spare time.",
+      "Awkward, but eager to learn. I was a chess champion regionally and nationally and had the priviledge of playing Grandmaster Karpov multiple times in 1995. I was also already pre-enrolled at McGill recognized classes for Concerto Classical Classes in my spare time.",
   },
   {
     id: 6,

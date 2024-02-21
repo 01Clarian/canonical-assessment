@@ -11,7 +11,9 @@ const ContextAreaOne = () => {
           <div className="row pb-55">
             <div className="col-xxl-12">
               <div className="canonical-assessment-section-title-wrap-4 text-center">
+              <h4>WEB</h4>
                 <p className="canonical-assessment-section-subtitle-5">
+                  <br/>
                  A) What skill or knowledge have you acquired in the past year that has been particularly helpful?
                   <br /> B) What motivated you to learn it?
                   <br /> C) What has the impact been for you and your team?
