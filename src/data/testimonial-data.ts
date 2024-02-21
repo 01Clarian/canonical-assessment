@@ -28,7 +28,7 @@ const testimonial_data: testimonialType[] = [
     authorName: "SCHOOL: OPTIONS II",
     desination: "MONTREAL QUEBEC, CANADA",
     description:
-      "Canada does not have SAT scores however my overall grade results were top percentile for my graduating class.",
+      "Although Canada does not have SAT scores, my overall grade results were in the top percentile for my graduating class.",
   },
   //education testimonial data
   {
@@ -38,7 +38,7 @@ const testimonial_data: testimonialType[] = [
     authorName: "SCHOOL: OPTIONS II",
     desination: "MONTREAL QUEBEC, CANADA",
     description:
-      "Although it's hard to make a case I was in the top 5% without average grades of other students, I can say that my math award proves I had the highest graduating score of my high school with a 90%.",
+      "It's difficult to make a case I was in the top 5% due to the nature of the Canadian academic system. Allow me to attest that my math award demonstrates I had the highest graduating score of my high school with a 90%.",
   },
   {
     id: 5,
@@ -47,7 +47,7 @@ const testimonial_data: testimonialType[] = [
     authorName: "SCHOOL: OPTIONS II",
     desination: "MONTREAL QUEBEC, CANADA",
     description:
-      "I was a chess champion regionally and nationally and had the priviledge of playing Grandmaster Karpov multiple times in 1995. I was also already pre-enrolled at McGill recognized classes for Concerto Classical Classes in my spare time.",
+      "I was focused and determined. I was a chess champion regionally and nationally and had the priviledge of playing Grandmaster Karpov multiple times in 1995. I was also already pre-enrolled at McGill recognized classes for Concerto Classical Classes in my spare time.",
   },
   {
     id: 6,

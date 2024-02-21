@@ -11,7 +11,7 @@ const CtaMainArea = () => {
               className="canonical-assessment-cta-box-4 text-center bg-default  pt-90 pb-95"
               style={{ backgroundImage: `url(${FooterBg.src})`, padding:"10px" }}
             >
-              <div className="canonical-assessment-cta-title-4" style={{padding:"10px"}}>
+              <div className="canonical-assessment-cta-title-4" style={{fontSize:"30px", color:'lightgreen'}}>
                 What kinds of software projects have you worked on before? Which operating systems, development environments, languages, databases and frameworks?
               </div>
               <span className="canonical-assessment-cta-subtitle-4 mb-30">
@@ -52,7 +52,7 @@ const CtaMainArea = () => {
                   </p>
                 </div>
               </span>
-              <div className="canonical-assessment-cta-title-4">
+              <div className="canonical-assessment-cta-title-4" style={{fontSize:"30px", color:'lightgreen'}}>
                 Have you been an open-source maintainer, and can you point to those projects?              </div>
               <span className="canonical-assessment-cta-subtitle-4 mb-30">
                 <div>
@@ -99,7 +99,7 @@ const CtaMainArea = () => {
                   </ul>
                 </div>
               </span>
-              <div className="canonical-assessment-cta-title-4">
+              <div className="canonical-assessment-cta-title-4" style={{fontSize:"30px", color:'lightgreen'}}>
                 What software products have you yourself led which shipped many releases to multiple customers? What was your role?
               </div>
               <span className="canonical-assessment-cta-subtitle-4 mb-30">
@@ -183,7 +183,7 @@ const CtaMainArea = () => {
                   </ul>
                 </div>
               </span>
-              <div className="canonical-assessment-cta-title-4">
+              <div className="canonical-assessment-cta-title-4" style={{fontSize:"30px", color:'lightgreen'}}>
                 What is your most senior role in a software engineering organisation? Describe your span of control and the diversity of products, functions and teams you led.              </div>
               <span className="canonical-assessment-cta-subtitle-4 mb-30">
                 <div>
@@ -244,7 +244,7 @@ const CtaMainArea = () => {
                   </p>
                 </div>
               </span>
-              <div className="canonical-assessment-cta-title-4">
+              <div className="canonical-assessment-cta-title-4" style={{fontSize:"30px", color:'lightgreen'}}>
                 Outline your views on the role of an engineering manager... </div>
               <span className="canonical-assessment-cta-subtitle-4 mb-30">
                 <div>
@@ -278,7 +278,7 @@ const CtaMainArea = () => {
                   </p>
                 </div>
               </span>
-              <div className="canonical-assessment-cta-title-4">
+              <div className="canonical-assessment-cta-title-4" style={{fontSize:"30px", color:'lightgreen'}}>
                 Outline your thoughts on performance in software engineering. How do you ensure that your product is fast? </div>
               <span className="canonical-assessment-cta-subtitle-4 mb-30">
                 <div>
@@ -287,7 +287,7 @@ const CtaMainArea = () => {
                     Performance in software engineering is not just a technical hurdle, it&apos;s the lifeblood of a great user experience. In my mind, a fast product is one that not only loads quickly, but also feels responsive, intuitive, and delightful to use. Here&apos;s how I ensure my work delivers on that promise:
                   </p>
                   <div>
-                    <h6 style={{ color: "yellow" }}>1. Performance-First Mindset:</h6>
+                    <h6 style={{ color: "yellow" }}>1. Performance-First Mindset</h6>
                   </div>
                   <ul>
                     <li>
@@ -299,7 +299,7 @@ const CtaMainArea = () => {
                   </ul>
                   <br />
                   <div>
-                    <h6 style={{ color: "yellow" }}>2. Optimizing for Speed and Efficiency:</h6>
+                    <h6 style={{ color: "yellow" }}>2. Optimizing for Speed and Efficiency</h6>
                   </div>
                   <ul>
                     <li>
@@ -314,7 +314,7 @@ const CtaMainArea = () => {
                   </ul>
                   <br />
                   <div>
-                    <h6 style={{ color: "yellow" }}>3. Rigorous Testing:</h6>
+                    <h6 style={{ color: "yellow" }}>3. Rigorous Testing</h6>
                   </div>
                   <ul>
                     <li>
@@ -329,7 +329,7 @@ const CtaMainArea = () => {
                   </ul>
                   <br />
                   <div>
-                    <h6 style={{ color: "yellow" }}>4. Beyond the Basics:</h6>
+                    <h6 style={{ color: "yellow" }}>4. Beyond the Basics</h6>
                   </div>
                   <ul>
                     <li>
@@ -344,14 +344,14 @@ const CtaMainArea = () => {
                   </ul>
                   <br />
                   <div>
-                    <h6 style={{ color: "yellow" }}>Continuous Improvement:</h6>
+                    <h6 style={{ color: "yellow" }}>Continuous Improvement</h6>
                   </div>
                   <p>
                     My approach to performance is an ongoing journey, not a destination. I actively stay updated with the latest tools, techniques, and best practices, continuously seeking ways to refine my approach and deliver even faster, more enjoyable experiences for users.
                   </p>
                 </div>
               </span>
-              <div className="canonical-assessment-cta-title-4">
+              <div className="canonical-assessment-cta-title-4" style={{fontSize:"30px", color:'lightgreen'}}>
                 Outline your thoughts on quality in software development. What practices are most effective in software teams to drive improvements in quality? </div>
               <span className="canonical-assessment-cta-subtitle-4 mb-30">
                 <div>
@@ -359,7 +359,7 @@ const CtaMainArea = () => {
                   <p>
                     Software quality is far more than just the absence of defects. It&apos;s the heart and soul of creating delightful user experiences, reliable products, and maintainable codebases. My perspective on quality revolves around these core principles:
                   </p>
-                  <h6 style={{ color: "yellow" }}>1. Quality is a Collective Responsibility:</h6>
+                  <h6 style={{ color: "yellow" }}>1. Quality is a Collective Responsibility</h6>
                   <ul>
                     <li>
                       Shared Ownership: Quality isn&apos;t solely the responsibility of QA testers; it&apos;s a team effort. Everyone, from developers to designers and product managers, contributes to building quality experiences.
@@ -372,7 +372,7 @@ const CtaMainArea = () => {
                     </li>
                   </ul>
                     <br/>
-                  <h6 style={{ color: "yellow" }}>2. Quality is Proactive, Not Reactive:</h6>
+                  <h6 style={{ color: "yellow" }}>2. Quality is Proactive, Not Reactive</h6>
                   <ul>
                     <li>
                       Shift-Left Testing: Integrating testing practices like unit tests and code reviews early in the development cycle catches issues early, making them cheaper and easier to fix.
@@ -385,7 +385,7 @@ const CtaMainArea = () => {
                     </li>
                   </ul>
                   <br/>
-                  <h6 style={{ color: "yellow" }}>3. Quality is Measured and Improved:</h6>
+                  <h6 style={{ color: "yellow" }}>3. Quality is Measured and Improved</h6>
                   <ul>
                     <li>
                       Data-Driven Decisions: Collecting and analyzing data on code coverage, defect rates, user feedback, and performance metrics helps identify areas for improvement and prioritize efforts effectively.
@@ -398,7 +398,7 @@ const CtaMainArea = () => {
                     </li>
                   </ul>
                   <br/>
-                  <h6 style={{ color: "yellow" }}>Effective Practices for Driving Quality:</h6>
+                  <h6 style={{ color: "yellow" }}>Effective Practices for Driving Quality</h6>
                   <ul>
                     <li>
                       Test-Driven Development (TDD): Writing tests before code encourages writing clean, modular, and well-tested code.
