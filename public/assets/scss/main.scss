@@ -30,6 +30,6 @@
 @forward './components/contact';
 @forward './components/error';
 
-@import "vanilla-framework";
+@import "../../../vanilla-framework-mod";
 @include vf-p-buttons;
 

@@ -32,7 +32,7 @@
     "sass": "^1.71.1",
     "swiper": "^9.4.1",
     "typescript": "5.1.3",
-    "vanilla-framework": "^4.8.0",
+    "vanilla-framework": "file:./vanilla-framework-mod",
     "vanilla-framework-react": "^0.2.0",
     "wowjs": "^1.1.3",
     "yup": "^1.2.0"
