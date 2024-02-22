@@ -11,6 +11,7 @@ import HeaderOne from "./header/HeaderOne";
 import Footer from "./footer/Footer";
 import useLoading from "@/hooks/useLoading";
 
+
 interface WrapperProps {
   children: React.ReactNode;
 }

@@ -9,6 +9,7 @@ import Icon4 from "../../../../public/assets/img/icon/icon-4-3.png";
 import Icon5 from "../../../../public/assets/img/icon/icon-4-5.png";
 import HeroImg from "../../../../public/assets/img/hero/hero-2.png";
 import Image from "next/image";
+import { Button } from '@canonical/react-components';
 
 const Hero = () => {
 
@@ -79,11 +80,11 @@ const Hero = () => {
                 Written assessment #2: Built in React, Next Js, Typescript, Sass & 
                 the hero of our event: Vanilla Framework
               </p>
-              <a onClick={handleScroll}
-              
-              className="canonical-assessment-hero-started-btn-4">
-                <span>Get Started</span>
-              </a>
+              <div className="custom-button">
+              <Button className='p-button--positive' onClick={handleScroll}>
+             Get Started
+              </Button>
+              </div>
             </div>
           </div>
           <div className="col-xxl-6 col-xl-6 col-lg-6"

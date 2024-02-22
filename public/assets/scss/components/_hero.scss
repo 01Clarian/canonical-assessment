@@ -5,6 +5,7 @@
 @use '../abstracts/mixins' as *;
 @use '../abstracts/variables' as *;
 
+
 .hero-shapes {
     &>* {
         z-index: -1;
@@ -119,6 +120,11 @@
             animation: hero-triangle-1 6s linear infinite;
         }
     }
+}
+
+.custom-button {
+    @include vanilla;
+    
 }
 
 
