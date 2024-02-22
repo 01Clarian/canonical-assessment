@@ -9,7 +9,6 @@ import Icon4 from "../../../../public/assets/img/icon/icon-4-3.png";
 import Icon5 from "../../../../public/assets/img/icon/icon-4-5.png";
 import HeroImg from "../../../../public/assets/img/hero/hero-2.png";
 import Image from "next/image";
-import { Button } from '@canonical/react-components'; // Import Button and ButtonAppearance
 
 const Hero = () => {
 
