@@ -74,7 +74,7 @@ const Hero = () => {
               <h3 className="canonical-assessment-hero-title-4">
                 Canonical <br />
                 Assessment
-                <br /> Built in Vanilla Framework 
+                <br /> Integrating Canonical Vanilla Framework 
               </h3>
               <p className="canonical-assessment-hero-text-4">
                 Written assessment #2: Built in React, Next Js, Typescript, Sass & 
