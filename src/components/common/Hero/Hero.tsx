@@ -80,11 +80,11 @@ const Hero = () => {
                 Written assessment #2: Built in React, Next Js, Typescript, Sass & 
                 the hero of our event: Vanilla Framework
               </p>
-              <Button 
-              appearance="positive"
+              <button 
+              className="p-button--positive"
               onClick={handleScroll}>
              Get Started
-              </Button>
+              </button>
             </div>
           </div>
           <div className="col-xxl-6 col-xl-6 col-lg-6"
