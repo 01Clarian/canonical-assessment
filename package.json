@@ -39,6 +39,8 @@
   },
   "devDependencies": {
     "@types/node": "^20.4.3",
-    "@types/react-modal-video": "^1.2.0"
+    "@types/react-modal-video": "^1.2.0",
+    "sass-loader": "^14.1.1",
+    "webpack": "^5.90.3"
   }
 }

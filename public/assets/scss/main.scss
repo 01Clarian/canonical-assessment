@@ -29,3 +29,6 @@
 @forward './components/contact';
 @forward './components/error';
 
+@import "vanilla-framework";
+@include vf-p-buttons;
+
